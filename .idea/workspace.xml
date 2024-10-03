@@ -83,6 +83,7 @@
     <configuration name="SeminarOne" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="seminar.group321.SeminarOne" />
       <module name="MAP" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 3 4 a a5 b 61" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="seminar.group321.*" />
@@ -118,7 +119,7 @@
       <workItem from="1727775535557" duration="893000" />
       <workItem from="1727795800664" duration="221000" />
       <workItem from="1727891154865" duration="85000" />
-      <workItem from="1727896317385" duration="1489000" />
+      <workItem from="1727896317385" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
