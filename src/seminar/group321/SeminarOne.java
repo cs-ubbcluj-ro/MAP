@@ -39,12 +39,15 @@ public class SeminarOne {
     }
 
     private static void eliminareNrPrime(List<Integer> listaNumere) {
+        //Varianta in care se returneaza o lista cu numerele care nu sunt prime
 //        List<Integer> listaFaraPrime = new ArrayList<>();
 //        for (int i = 0; i < listaNumere.size(); i++) {
 //            if (!estePrim(listaNumere.get(i)))
 //                listaFaraPrime.add(listaNumere.get(i));
 //        }
 //        return listaFaraPrime;
+
+        //Varianta in care se sterg din lista initiala numerele prime
         int i = 0;
         while (i < listaNumere.size()) {
             if (estePrim(listaNumere.get(i)))
@@ -74,29 +77,32 @@ public class SeminarOne {
     private static List<Integer> citesteTastatura() {
         List<Integer> listaNumere = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        //System.out.println("Numarul de numere citite:");
-        //int cateNrCitite = scanner.nextInt();
-        while (scanner.hasNext()) {
-            String current = scanner.next();
-            if (current.equals("stop"))
-                break;
-            try {
-                int nrCurent = Integer.parseInt(current);
-                listaNumere.add(nrCurent);
-            } catch (NumberFormatException ex) {
-                System.out.println(current + " nu este nr. Skipping..");
-            }
-
-        }
-//        int nrNecitite = 0;
-//        for (int i=0; i<cateNrCitite;i++){
+        System.out.println("Numarul de numere citite:");
+        int cateNrCitite = scanner.nextInt();
+//        while (scanner.hasNext()) {
+//            String current = scanner.next();
+//            if (current.equals("stop"))
+//                break;
 //            try {
-//                int nrCurent = scanner.nextInt();
+//                int nrCurent = Integer.parseInt(current);
 //                listaNumere.add(nrCurent);
-//            }catch (InputMismatchException ex){
-//                nrNecitite+=1;
+//            } catch (NumberFormatException ex) {
+//                System.out.println(current + " nu este nr. Skipping..");
 //            }
+//
 //        }
+        int nrNecitite = 0;
+        for (int i=0; i<cateNrCitite;i++) {
+            try {
+                int nrCurent = scanner.nextInt();
+                listaNumere.add(nrCurent);
+            } catch (InputMismatchException ex) {
+                //added
+                scanner.next();
+                nrNecitite += 1;
+            }
+        }
+
 
         return listaNumere;
     }
