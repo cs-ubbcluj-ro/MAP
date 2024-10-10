@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Updated README.md">
+    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Cod seminar 1 cu grupa 323.">
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/TestProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/UnitSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar/group321/SeminarOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar/group321/SeminarOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,40 +37,53 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.SeminarOne.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.SeminarOne.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lecture/livecoding/lecture1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeminarOne">
+  <component name="RunManager" selected="Application.TestProgram">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture.livecoding.lecture1.HelloWorld" />
       <module name="MAP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lecture.livecoding.lecture1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.lecture2.MainProgram" />
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.livecoding.lecture2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +117,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.lecture2.TestProgram" />
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.livecoding.lecture2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar.group323.SeminarOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminar.group323.SeminarOne" />
+      <module name="MAP" />
+      <option name="PROGRAM_PARAMETERS" value="Seminar -100 24 144 196 args Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar.group323.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SeminarOne" />
+      <item itemvalue="Application.TestProgram" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.MainProgram" />
+      <item itemvalue="Application.SecondClass" />
+      <item itemvalue="Application.seminar.group323.SeminarOne" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestProgram" />
+        <item itemvalue="Application.seminar.group323.SeminarOne" />
+        <item itemvalue="Application.MainProgram" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.SecondClass" />
       </list>
@@ -119,6 +181,7 @@
       <workItem from="1727795800664" duration="221000" />
       <workItem from="1727891154865" duration="85000" />
       <workItem from="1727896317385" duration="8587000" />
+      <workItem from="1728563267389" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -144,16 +207,60 @@
       <option name="project" value="LOCAL" />
       <updated>1727776215367</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Primul commit la seminar :)">
+      <option name="closed" value="true" />
+      <created>1728393754954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728393754954</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cod seminar 1 cu grupa 323.">
+      <option name="closed" value="true" />
+      <created>1728399393916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728399393916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Testing commit." />
     <MESSAGE value="Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+    <MESSAGE value="Primul commit la seminar :)" />
+    <MESSAGE value="Cod seminar 1 cu grupa 323." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cod seminar 1 cu grupa 323." />
   </component>
 </project>
