@@ -33,6 +33,39 @@ public class Rational {
         this.denominator = den;
     }
 
+    @Override
+    public String toString() {
+        return "Rational{" +
+                "numerator=" + numerator +
+                ", denominator=" + denominator +
+                '}';
+    }
+
+    @Override
+    public int hashCode() {
+        int result = numerator;
+        result = 31 * result + denominator;
+        return result;
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Rational rational = (Rational) o;
+        return numerator == rational.numerator &&
+                denominator == rational.denominator;
+    }
+
+    public Rational add(Rational r) {
+        Rational result = new Rational(this.numerator * r.denominator + this.denominator * r.numerator, this.denominator * r.denominator);
+        int gcd = MathUtils.gcd(result.numerator, result.denominator);
+        result.numerator /= gcd;
+        result.denominator /= gcd;
+        return result;
+    }
+
     public static void main(String[] args) {
         Rational r1 = new Rational(1, 2);
         Rational r2 = new Rational(3);
@@ -55,36 +88,5 @@ public class Rational {
         Rational r6 = new Rational(1, 2);
         Rational sum = r5.add(r6);
         System.out.println("Sum: " + sum);
-    }
-
-    @Override
-    public String toString() {
-        return "Rational{" +
-                "numerator=" + numerator +
-                ", denominator=" + denominator +
-                '}';
-    }
-
-//    public Rational add(Rational r)  {
-//        this(this.numerator + r.numerator,
-//                this.denominator + r.denominator); // ERROR
-//        return this;
-//    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Rational rational = (Rational) o;
-        return numerator == rational.numerator &&
-                denominator == rational.denominator;
-    }
-
-    public Rational add(Rational r) {
-        Rational result = new Rational(this.numerator * r.denominator + this.denominator * r.numerator, this.denominator * r.denominator);
-        int gcd = MathUtils.gcd(result.numerator, result.denominator);
-        result.numerator /= gcd;
-        result.denominator /= gcd;
-        return result;
     }
 }

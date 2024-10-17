@@ -28,6 +28,8 @@ public class AbstractClasses {
         AbstractAnimal dog = new Dog("black", 24);
         dog.speak();
 
+        // Here we declare a new class that is derived from Abstract Animal, for which we implement the abstract
+        // speak() method inline.
         AbstractAnimal cat = new AbstractAnimal("white", 4) {
             @Override
             public void speak() {
