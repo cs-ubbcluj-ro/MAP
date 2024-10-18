@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Cod seminar 1 cu grupa 323.">
-      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/TestProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/UnitSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar2/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar2/domain/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar2/domain/Musician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar2/domain/Persoana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar2/repository/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,34 +39,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.SeminarOne.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Seminar2321.executor": "Run",
+    "Application.SeminarOne.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group321/seminar2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lecture/livecoding/lecture1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestProgram">
+  <component name="RunManager" selected="Application.Seminar2321">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture.livecoding.lecture1.HelloWorld" />
       <module name="MAP" />
@@ -100,6 +107,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminar2321" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="seminar.group321.seminar2.Main" />
+      <module name="MAP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,6 +160,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.SeminarOne" />
+      <item itemvalue="Application.Seminar2321" />
       <item itemvalue="Application.TestProgram" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.MainProgram" />
@@ -182,6 +197,8 @@
       <workItem from="1727891154865" duration="85000" />
       <workItem from="1727896317385" duration="8587000" />
       <workItem from="1728563267389" duration="966000" />
+      <workItem from="1729280860219" duration="119000" />
+      <workItem from="1729281403609" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
