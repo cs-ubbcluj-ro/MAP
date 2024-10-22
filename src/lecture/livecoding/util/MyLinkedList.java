@@ -1,4 +1,4 @@
-package lecture.livecoding.lecture3;
+package lecture.livecoding.util;
 
 import java.util.Iterator;
 

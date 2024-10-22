@@ -1,4 +1,8 @@
-package lecture.livecoding.lecture2;
+package lecture.livecoding;
+
+import lecture.livecoding.domain.Rectangle;
+import lecture.livecoding.domain.Square;
+import lecture.livecoding.domain.UnitSquare;
 
 public class TestProgram {
     public static void main(String[] args) {

@@ -1,7 +1,8 @@
-package lecture.livecoding.lecture3;
+package lecture.livecoding;
 
-import lecture.livecoding.lecture2.Rectangle;
-import lecture.livecoding.lecture2.UnitSquare;
+import lecture.livecoding.domain.Rectangle;
+import lecture.livecoding.domain.UnitSquare;
+import lecture.livecoding.util.MyLinkedList;
 
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package lecture.livecoding.lecture1;
+package lecture.livecoding.introduction;
 
 import java.util.Scanner;
 

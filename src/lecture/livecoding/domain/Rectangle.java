@@ -1,4 +1,4 @@
-package lecture.livecoding.lecture2;
+package lecture.livecoding.domain;
 
 public class Rectangle extends Shape {
 

@@ -1,4 +1,4 @@
-package lecture.livecoding.lecture1;
+package lecture.livecoding.introduction;
 
 public class SecondClass {
     public static void main(String[] args) {

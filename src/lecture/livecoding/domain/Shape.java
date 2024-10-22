@@ -1,4 +1,4 @@
-package lecture.livecoding.lecture2;
+package lecture.livecoding.domain;
 
 public abstract class Shape {
     // NOTE java.lang.Object is the root of the Java inheritance hierarchy
