@@ -5,6 +5,8 @@ public interface IList<T> {
 
     T get(int index);
 
+    void delete(T elem);
+
     default int size() {
         // metode implicite, posibile din Java 8
         return -1;

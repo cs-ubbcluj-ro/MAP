@@ -24,6 +24,11 @@ public class MyLinkedList<T> extends Object implements IList<T>, Iterable<T> {
     }
 
     @Override
+    public void delete(T elem) {
+        // TODO De implementat
+    }
+
+    @Override
     public T get(int index) {
         Node<T> current = head;
         while (index > 0) {
