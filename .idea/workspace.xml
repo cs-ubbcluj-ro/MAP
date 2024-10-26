@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Lucru la seminar cu 323">
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/service/ArtistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/tests/ArtistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/ui/ConsoleUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar2/Domain/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar2/Domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar2/Domain/Persoana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar2/Domain/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar2/Repository/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture1/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/introduction/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture1/SecondClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/introduction/SecondClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/TestProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/UnitSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/UnitSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture3/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/util/IList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture3/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/MainProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture3/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/util/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar/group323/seminar2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group321/seminar2",
+    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group322/seminar2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar2" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -217,6 +206,7 @@
       <workItem from="1728563267389" duration="966000" />
       <workItem from="1729280860219" duration="119000" />
       <workItem from="1729281403609" duration="2366000" />
+      <workItem from="1729931911471" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
