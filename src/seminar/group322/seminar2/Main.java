@@ -91,6 +91,19 @@ public class Main {
         }
         System.out.println(playerRepo);
         System.out.println(agentRepo);
+
+        Player p5 = new Player(10, "Hagi", 27, "midfielder");
+        try {
+            playerRepo.addEntity(p5);
+            System.out.println("Adaugat player " + p5 + " la repository. Repo arata asa acum:");
+            System.out.println(playerRepo);
+            playerRepo.removeEntity(10);
+            System.out.println("Sters player " + p5 + " din repository. Repo arata asa acum:");
+            System.out.println(playerRepo);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 
 
