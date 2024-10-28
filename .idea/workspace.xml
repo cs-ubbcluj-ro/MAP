@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Lucru la seminar cu 323">
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/service/ArtistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/tests/ArtistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/ui/ConsoleUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture1/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/introduction/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture1/SecondClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/introduction/SecondClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/TestProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture2/UnitSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/domain/UnitSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture3/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/util/IList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture3/MainProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/MainProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/lecture3/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/util/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar/group323/seminar2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/Program.java" afterDir="false" />
-    </list>
+    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Lucru la seminar cu 323" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,36 +31,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Seminar2321.executor": "Run",
-    "Application.SeminarOne.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group321/seminar2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.23242188",
-    "project.structure.side.proportion": "0.14256619",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Seminar2321.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeminarOne.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group322/seminar2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.23242188&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.14256619&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar2" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -217,6 +198,7 @@
       <workItem from="1728563267389" duration="966000" />
       <workItem from="1729280860219" duration="119000" />
       <workItem from="1729281403609" duration="2366000" />
+      <workItem from="1729931911471" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
