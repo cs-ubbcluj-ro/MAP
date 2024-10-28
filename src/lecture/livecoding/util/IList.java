@@ -1,14 +1,11 @@
 package lecture.livecoding.util;
 
-public interface IList<T> {
-    void add(T e);
+public interface IList<E> {
+    void add(E e);
 
-    T get(int index);
+    E get(int index);
 
-    void delete(T elem);
+    void delete(E elem);
 
-    default int size() {
-        // metode implicite, posibile din Java 8
-        return -1;
-    }
+    int size();
 }

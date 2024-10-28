@@ -2,35 +2,42 @@ package lecture.livecoding.util;
 
 import java.util.Iterator;
 
-public class MyLinkedList<T> extends Object implements IList<T>, Iterable<T> {
+public class MyLinkedList<E> implements IList<E>, Iterable<E> {
 
     // referintele se initializeaza implicit cu valoarea null
     // tipurile numerice primitive se initializeaza implicit cu valoarea 0
     // tipul boolean se initializeaza implicit cu valoarea false
-    private Node<T> head;
+    private Node<E> head;
 
+    private int size;
 
     @Override
-    public void add(T e) {
+    public void add(E e) {
         if (head == null) {
-            head = new Node<T>(null, e);
+            head = new Node<E>(null, e);
         } else {
-            Node<T> current = head;
+            Node<E> current = head;
             while (current.getNext() != null) {
                 current = current.getNext();
             }
-            current.setNext(new Node<T>(null, e));
+            current.setNext(new Node<E>(null, e));
         }
+        size += 1;
     }
 
     @Override
-    public void delete(T elem) {
+    public void delete(E elem) {
         // TODO De implementat
     }
 
     @Override
-    public T get(int index) {
-        Node<T> current = head;
+    public int size() {
+        return size;
+    }
+
+    @Override
+    public E get(int index) {
+        Node<E> current = head;
         while (index > 0) {
             current = current.getNext();
             index -= 1;
@@ -42,9 +49,8 @@ public class MyLinkedList<T> extends Object implements IList<T>, Iterable<T> {
     public String toString() {
         // String is immutable is Java
         StringBuilder sb = new StringBuilder(); // implements the Builder design pattern
-        sb.append(getClass().getName());
-        sb.append("\r\n");
-        Node<T> current = head;
+        sb.append(getClass().getName()).append(" of size ").append(size()).append("\r\n");
+        Node<E> current = head;
         while (current != null) {
             sb.append(current.getValue());
             sb.append("\r\n");
@@ -54,7 +60,7 @@ public class MyLinkedList<T> extends Object implements IList<T>, Iterable<T> {
     }
 
     @Override
-    public Iterator<T> iterator() {
+    public Iterator<E> iterator() {
         return new MyIterator<>(head);
     }
 

@@ -13,14 +13,38 @@ public abstract class AbstractRepository<T extends Shape> implements Iterable<T>
 
     protected List<T> data = new ArrayList<>();
 
-    // exceptie daca obiectul deja exista in repo
+     /**
+     * Add a new element to the repository
+     *
+     * @param elem The element to be added
+     * @throws RepositoryException In case an element having the same ID already exists in the repository
+     */
     public abstract void add(T elem) throws RepositoryException;
 
-    // exceptie daca obiectul nu exista
+    /**
+     * Remove the given element from the repository
+     *
+     * @param elem The element to be removed
+     * @throws RepositoryException In case the element does not exist
+     */
     public abstract void delete(T elem) throws RepositoryException;
 
-    // exceptie daca id-ul nu exista
+    /**
+     * Find the object having the given ID in the repository
+     *
+     * @param id The id value to search for
+     * @return The element, or null in case it was not found
+     */
     public abstract T find(int id);
+
+    /**
+     * Return the size of the repository
+     *
+     * @return The number of objects in the repository
+     */
+    public int size() {
+        return this.data.size();
+    }
 
     public Collection<T> getAll() {
         // ArrayList e clasa derivata din Collection
