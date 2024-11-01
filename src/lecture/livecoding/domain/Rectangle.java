@@ -1,13 +1,25 @@
 package lecture.livecoding.domain;
 
-public class Rectangle extends Shape {
+import java.io.Serial;
+
+/**
+ * This class is derived from Shape2D. Since it implements the inherited abstract method getArea(), it is not longer
+ * abstract and can be instantiated
+ */
+public class Rectangle extends Shape2D {
+
+    // This is a special variable with a well defined meaning in Java serialization
+    // Find out more at https://www.baeldung.com/java-serial-version-uid
+    @Serial
+    private static final long serialVersionUID = 1;
 
     protected int width;
     protected int height;
 
 
     public Rectangle(int id, String name, int width, int height) {
-        super(id, name); // call the base class constructor
+        // Calls the base class constructor
+        super(id, name);
         this.width = width;
         this.height = height;
     }

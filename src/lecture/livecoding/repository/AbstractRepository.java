@@ -1,19 +1,25 @@
 package lecture.livecoding.repository;
 
-import lecture.livecoding.domain.Shape;
+import lecture.livecoding.domain.Shape2D;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-public abstract class AbstractRepository<T extends Shape> implements Iterable<T> {
-    // T reprezinta tipul de referinta stocat de Repository
-    // T poate fi orice tip de referinta (String, Plane, Integer, Double)
+/**
+ * Represents the base class for a repository. Notice the abstract methods, which require us to mark the class itself as
+ * being "abstract". Actual repository implementation will be all derived from this one.
+ *
+ * @param <T> Type of objects that can be stored in the repository. Notice the upper bound "extends Shape2D", which
+ *            says that T must extend Shape2D in order to be eligible for being stored here.
+ */
+public abstract class AbstractRepository<T extends Shape2D> implements Iterable<T> {
 
+    // This java.lang.ArrayList is the actual backing store of the repository
     protected List<T> data = new ArrayList<>();
 
-     /**
+    /**
      * Add a new element to the repository
      *
      * @param elem The element to be added
@@ -47,14 +53,15 @@ public abstract class AbstractRepository<T extends Shape> implements Iterable<T>
     }
 
     public Collection<T> getAll() {
-        // ArrayList e clasa derivata din Collection
-        // aici avem un "covariant return"
+        // ArrayList is derived from java.util.Collection. This method uses a covariant return (since an ArrayList
+        // "is a" Collection, you may use an ArrayList in all places where a Collection is expected
         return new ArrayList<>(data);
     }
 
     @Override
     public Iterator<T> iterator() {
-        // Iteratorul peste repository este de fapt iteratorul listei
+        // The iterator of the repository is a Java iterator. The implementation uses the internal iterator of the
+        // repository's backing list.
         return data.iterator();
     }
 }

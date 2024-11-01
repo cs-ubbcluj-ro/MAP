@@ -1,13 +1,17 @@
 package lecture.livecoding.domain;
 
+/**
+ * A square is a rectangle where the width = height. This class is transitively derived from Shape2D and therefore it
+ * also implements java.io.Serializable.
+ */
 public class Square extends Rectangle {
 
 
     /**
      * Constructor for class Square. A square is a rectangle (as per the inheritance relation) where width == height
      *
-     * @param id
-     * @param name
+     * @param id    The unique id of the object
+     * @param name  The name of this object
      * @param width The width of the square.
      */
     public Square(int id, String name, int width) {

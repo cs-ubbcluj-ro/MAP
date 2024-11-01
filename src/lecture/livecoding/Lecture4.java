@@ -1,7 +1,7 @@
 package lecture.livecoding;
 
 import lecture.livecoding.domain.Rectangle;
-import lecture.livecoding.domain.Shape;
+import lecture.livecoding.domain.Shape2D;
 import lecture.livecoding.domain.Square;
 import lecture.livecoding.domain.UnitSquare;
 import lecture.livecoding.repository.AbstractRepository;
@@ -10,7 +10,7 @@ import lecture.livecoding.repository.RepositoryException;
 
 public class Lecture4 {
     public static void main(String[] args) {
-        AbstractRepository<Shape> repo = new MemoryRepository<>();
+        AbstractRepository<Shape2D> repo = new MemoryRepository<>();
         AbstractRepository<Rectangle> repoRectangles = new MemoryRepository<>();
 
 
@@ -28,7 +28,7 @@ public class Lecture4 {
             System.out.println(s);
         }
 
-        Shape s = null;
+        Shape2D s = null;
 
     }
 }
