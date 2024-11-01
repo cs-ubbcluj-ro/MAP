@@ -1,7 +1,13 @@
 package lecture.livecoding.domain;
 
+/**
+ * This class provides an early example of the Singleton design pattern. This implementation is not thread-safe! This
+ * means that it is correct only as long as the program is run on a single thread.
+ */
 public class UnitSquare extends Square {
 
+    // This variable holds the unique, shared instance of UnitSquare. Remember that since UnitSquare is derived from
+    // class Square, a Unit Square is a Square
     private static UnitSquare instance;
 
     /**
