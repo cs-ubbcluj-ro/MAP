@@ -20,14 +20,6 @@ public abstract class AbstractFileRepository<T extends Shape2D> extends MemoryRe
 
     public AbstractFileRepository(String fileName) {
         this.fileName = fileName;
-        try {
-            loadFile();
-        } catch (RepositoryException e) {
-            // Since we did not declare any thrown exceptions for the class constructor, we must raise one that is
-            // derived from RuntimeException (Java's unchecked exceptions do not have to be explicitly declared to be
-            // thrown, nor do they need to be try { } catch(...). )
-            throw new RuntimeException(e);
-        }
     }
 
     @Override

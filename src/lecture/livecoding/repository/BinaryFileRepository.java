@@ -15,18 +15,42 @@ import java.util.ArrayList;
 public class BinaryFileRepository<T extends Shape2D> extends AbstractFileRepository<T> {
     public BinaryFileRepository(String fileName) {
         super(fileName);
+        try {
+            loadFile();
+        } catch (RepositoryException e) {
+            // Since we did not declare any thrown exceptions for the class constructor, we must raise one that is
+            // derived from RuntimeException (Java's unchecked exceptions do not have to be explicitly declared to be
+            // thrown, nor do they need to be try { } catch(...). )
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
     protected void saveFile() throws RepositoryException {
-        try {
-            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName));
+
+        // Resursele initializate in try() trebuie sa implementeze AutoCloseable
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
             oos.writeObject(data);
-            // TODO If there is an exception raised here, who is responsible for closing the stream?
-            oos.close();
-        } catch (IOException exc) {
-            throw new RepositoryException("Eroare la salvarea fisierului", exc);
+        } catch (IOException e) {
+            throw new RepositoryException(e.getMessage(), e);
         }
+
+
+//        ObjectOutputStream oos = null;
+//        try {
+//            oos = new ObjectOutputStream(new FileOutputStream(fileName));
+//            oos.writeObject(data);
+//            // TODO If there is an exception raised here, who is responsible for closing the stream?
+//
+//        } catch (IOException exc) {
+//            throw new RepositoryException("Eroare la salvarea fisierului", exc);
+//        } finally {
+//            try {
+//                oos.close();
+//            } catch (IOException e) {
+//                throw new RepositoryException(e.getMessage());
+//            }
+//        }
     }
 
     @Override

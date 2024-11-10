@@ -1,29 +1,35 @@
 package seminar.group323.seminar2.repository;
 
-import lecture.livecoding.util.MyLinkedList;
 import seminar.group323.seminar2.domain.Entity;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.List;
 
 public class Repository<T extends Entity> implements IRepository<T> {
 
-    MyLinkedList<T> data = new MyLinkedList<>();
+    List<T> data = new ArrayList<>();
 
     @Override
-    public void add(T item) {
-        data.add(item);
+    public void add(T item) throws RepositoryException {
+        try {
+            findById(item.getId());
+        } catch (RepositoryException e) {
+            data.add(item);
+            return;
+        }
+        throw new RepositoryException("Duplicate id=" + item.getId());
     }
 
     @Override
     public void remove(int id) {
-
+        // TODO de implementat
     }
 
     @Override
     public Collection<T> getAll() {
-//        return data;
-        return null;
+        return data;
     }
 
     @Override
@@ -33,7 +39,8 @@ public class Repository<T extends Entity> implements IRepository<T> {
                 return elem;
             }
         }
-        throw new RepositoryException("Noooooo!");
+        // NOTE Aruncarea exceptiilor e scumpa computational :)
+        throw new RepositoryException("Element with id not found=" + id);
     }
 
     @Override
