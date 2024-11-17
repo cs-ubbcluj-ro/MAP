@@ -4,34 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Lucru la seminar cu 323">
+    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Exemple Java streams">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/xerial_sqlite_jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar3/managers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar3/musicians.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/IEntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/ManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/Musician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/MusicianFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/domain/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/managers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/musician_db.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/musicians.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/DuplicateEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/EntityNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/FileRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/repository/SQLMusicianRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/service/MusicianService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar4/ui/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/Lecture7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture/livecoding/repository/SQLRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/Lecture6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/Lecture6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/repository/TextFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/repository/TextFileRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +45,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
     "Application.Seminar2321.executor": "Run",
     "Application.SeminarOne.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.RepositoryTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -76,7 +57,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group321/seminar3",
+    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group321/seminar2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,26 +65,57 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.23242188",
-    "project.structure.side.proportion": "0.14256619",
-    "settings.editor.selected.configurable": "configurable.group.build",
+    "project.structure.side.proportion": "0.30218446",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar3" />
-      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar4" />
-      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar2" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lecture/examples/lecture4" />
       <recent name="$PROJECT_DIR$/src/lecture/livecoding/lecture1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lecture.livecoding.util" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.MainProgram" />
+  <component name="RunManager" selected="Application.Lecture7">
+    <configuration name="JDBC (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture6.jdbc.JDBC" />
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.examples.lecture6.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBC (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture6.jdbc.JDBC" />
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.examples.lecture6.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lecture6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture6" />
       <module name="MAP" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar.group323.seminar2.Program" />
+    <configuration name="Lecture7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture7" />
       <module name="MAP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminar.group323.seminar2.domain.*" />
+          <option name="PATTERN" value="lecture.livecoding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.TestProgram" />
+    <configuration name="StreamsExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture7.StreamsExamples" />
       <module name="MAP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture.livecoding.*" />
+          <option name="PATTERN" value="lecture.examples.lecture7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,30 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="seminar.group323.SeminarOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminar.group323.SeminarOne" />
+    <configuration name="RepoTests" type="JUnit" factoryName="JUnit">
       <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar.group323.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArtistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seminar.group323.seminar2.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seminar.group323.seminar2.tests" />
-      <option name="MAIN_CLASS_NAME" value="seminar.group323.seminar2.tests.ArtistTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="lecture.examples" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,19 +186,20 @@
     <list>
       <item itemvalue="Application.SeminarOne" />
       <item itemvalue="Application.Seminar2321" />
-      <item itemvalue="Application.Program" />
-      <item itemvalue="Application.TestProgram" />
-      <item itemvalue="Application.MainProgram" />
-      <item itemvalue="Application.seminar.group323.SeminarOne" />
-      <item itemvalue="JUnit.ArtistTest" />
+      <item itemvalue="Application.Lecture7" />
+      <item itemvalue="Application.JDBC (2)" />
+      <item itemvalue="Application.JDBC (1)" />
+      <item itemvalue="Application.StreamsExamples" />
+      <item itemvalue="Application.Lecture6" />
+      <item itemvalue="JUnit.RepoTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestProgram" />
-        <item itemvalue="Application.MainProgram" />
-        <item itemvalue="Application.seminar.group323.SeminarOne" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="JUnit.ArtistTest" />
+        <item itemvalue="Application.Lecture7" />
+        <item itemvalue="Application.JDBC (2)" />
+        <item itemvalue="Application.Lecture6" />
+        <item itemvalue="Application.JDBC (1)" />
+        <item itemvalue="Application.StreamsExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -230,8 +225,13 @@
       <workItem from="1728563267389" duration="966000" />
       <workItem from="1729280860219" duration="119000" />
       <workItem from="1729281403609" duration="2366000" />
-      <workItem from="1729931911471" duration="683000" />
-      <workItem from="1731764427025" duration="1821000" />
+      <workItem from="1730463120829" duration="4291000" />
+      <workItem from="1730585589178" duration="1476000" />
+      <workItem from="1730717298464" duration="5399000" />
+      <workItem from="1730815380122" duration="12448000" />
+      <workItem from="1731235406646" duration="459000" />
+      <workItem from="1731254940464" duration="2807000" />
+      <workItem from="1731329221007" duration="6021000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -289,7 +289,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729604180121</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adăugat cod sursă cursul 5, refactorizare și scris (multe) comentarii adiționale.">
+      <option name="closed" value="true" />
+      <created>1730467699464</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730467699464</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exemple de cod sursă pentru săptămâna 6.">
+      <option name="closed" value="true" />
+      <created>1730726084724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730726084724</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Exemple de cod sursă (curs + seminar) pentru săptămâna 6.">
+      <option name="closed" value="true" />
+      <created>1731235559694</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731235559694</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Exemple Java streams">
+      <option name="closed" value="true" />
+      <created>1731323067708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731323067708</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +361,17 @@
     <MESSAGE value="Cod seminar 1 cu grupa 323." />
     <MESSAGE value="Code examples for week 4 lecture." />
     <MESSAGE value="Lucru la seminar cu 323" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lucru la seminar cu 323" />
+    <MESSAGE value="Adăugat cod sursă cursul 5, refactorizare și scris (multe) comentarii adiționale." />
+    <MESSAGE value="Exemple de cod sursă pentru săptămâna 6." />
+    <MESSAGE value="Exemple de cod sursă (curs + seminar) pentru săptămâna 6." />
+    <MESSAGE value="Exemple Java streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemple Java streams" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MAP$JDBC__2_.ic" NAME="JDBC (2) Coverage Results" MODIFIED="1731430328966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lecture.examples.lecture6.jdbc.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MAP$RepoTest.ic" NAME="RepoTest Coverage Results" MODIFIED="1731430410943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MAP$RepoTests.ic" NAME="RepoTests Coverage Results" MODIFIED="1731431359371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

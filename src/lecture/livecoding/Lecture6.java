@@ -2,6 +2,7 @@ package lecture.livecoding;
 
 import lecture.livecoding.domain.Square;
 import lecture.livecoding.domain.SquareConverter;
+import lecture.livecoding.domain.UnitSquare;
 import lecture.livecoding.repository.*;
 import lecture.livecoding.util.Settings;
 
@@ -20,10 +21,16 @@ public class Lecture6 {
         throw new IllegalArgumentException("Fisierul de setari e gresit!");
     }
 
-    public static void main(String[] args) throws RepositoryException {
-        AbstractRepository<Square> repo = getRepository();
-        for (var s : repo) {
-            System.out.println(s);
+    public static void main(String[] args) {
+        try {
+            AbstractRepository<Square> repo = getRepository();
+            repo.add(UnitSquare.getInstance());
+            repo.add(new Square(101, "unu", 5));
+            for (var s : repo) {
+                System.out.println(s);
+            }
+        } catch (RepositoryException e) {
+            System.out.println(e.getMessage());
         }
     }
 }

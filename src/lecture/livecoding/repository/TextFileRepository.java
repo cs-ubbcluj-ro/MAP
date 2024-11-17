@@ -1,10 +1,9 @@
- package lecture.livecoding.repository;
+package lecture.livecoding.repository;
 
 import lecture.livecoding.domain.Shape2D;
 import lecture.livecoding.domain.ShapeConverter;
 
 import java.io.*;
-import java.util.Objects;
 
 public class TextFileRepository<T extends Shape2D> extends AbstractFileRepository {
 
@@ -44,6 +43,9 @@ public class TextFileRepository<T extends Shape2D> extends AbstractFileRepositor
                 data.add(converter.fromString(line));
                 line = br.readLine();
             }
+        } catch (FileNotFoundException e) {
+            // TODO Log this exception
+            System.out.println("Fisierul de date este gol");
         } catch (IOException e) {
             throw new RepositoryException("Eroare la citirea fisierului", e);
         }
