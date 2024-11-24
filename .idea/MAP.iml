@@ -24,5 +24,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="xerial.sqlite.jdbc" level="project" />
+    <orderEntry type="library" name="diogonunes.JColor" level="project" />
   </component>
 </module>

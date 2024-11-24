@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Exemple Java streams">
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/AgentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/IEntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Domain/PlayerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/BinaryFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/DuplicateEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/FileRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/NonExistEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/PlayerDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/Service/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/managers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/players.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/players.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4/sports_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Persoana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/PlayerCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/sports_db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +56,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group322/seminar4",
+    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group322/seminar4streams",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar4streams" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar4" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
     </key>
@@ -248,7 +233,7 @@
       <workItem from="1731235406646" duration="459000" />
       <workItem from="1731254940464" duration="2807000" />
       <workItem from="1731329221007" duration="6021000" />
-      <workItem from="1732442121640" duration="1294000" />
+      <workItem from="1732442121640" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
