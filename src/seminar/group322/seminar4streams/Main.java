@@ -78,7 +78,7 @@ public class Main {
         //Tara cu cei mai multi jucatori
         //Ne folosim de Map-ul creat anterior, nationalityCount
         //in care avem tara - nr. de jucatori
-        //pe lista de perechi (cheie - valoare), aplicam max
+        //pe multimea de perechi (cheie - valoare), aplicam max
         //comparand dupa valoare (valoarea = numarul de jucatori)
         //Se returneaza o pereche tara - nr. jucatori
         Optional<Map.Entry<String, Long>> mostCommonNationality = nationalityCount
