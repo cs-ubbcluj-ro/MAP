@@ -10,7 +10,7 @@ import static com.diogonunes.jcolor.Ansi.colorize;
 public class Main {
     public static void main(String[] args) {
         PlayerCollection playersCollection = new PlayerCollection();
-        Collection<Player> playersList = playersCollection.getAll();
+        List<Player> playersList = playersCollection.getAll();
 
         //Lista de jucatori de la o echipa
         //Se afiseaza:
@@ -66,8 +66,8 @@ public class Main {
                         Collectors.minBy(Comparator.comparingInt(Player::getAge))
                 ));
         youngestPlayerPerPosition.forEach((position, youngestPlayerPosition) ->
-                youngestPlayerPosition.ifPresent(player ->{
-                            System.out.println("Playing position: "+colorize(position, Attribute.BLUE_TEXT()));
+                youngestPlayerPosition.ifPresent(player -> {
+                            System.out.println("Playing position: " + colorize(position, Attribute.BLUE_TEXT()));
                             System.out.println("Youngest player:");
                             System.out.println(player.getName() + " (Age: " + player.getAge() + ")");
 
@@ -94,5 +94,6 @@ public class Main {
         //playerNationalities.forEach(System.out::println);
         System.out.println(playerNationalities.toString());
 
+        playersCollection.closeConnection();
     }
 }

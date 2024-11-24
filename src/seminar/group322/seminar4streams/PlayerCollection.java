@@ -55,7 +55,16 @@ public class PlayerCollection {
         }
     }
 
-    public Collection<Player> getAll() {
+    public void closeConnection() {
+        if (connection != null)
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+    }
+
+    public List<Player> getAll() {
         return this.players;
     }
 
