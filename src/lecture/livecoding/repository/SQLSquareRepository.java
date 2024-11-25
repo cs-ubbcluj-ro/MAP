@@ -1,19 +1,20 @@
 package lecture.livecoding.repository;
 
 
+import lecture.livecoding.domain.Square;
 import org.sqlite.SQLiteDataSource;
 
 import java.sql.*;
 
 
-public class SQLRepository<Square> extends MemoryRepository<lecture.livecoding.domain.Square> implements AutoCloseable {
+public class SQLSquareRepository extends MemoryRepository<Square> implements AutoCloseable {
 
     private static final String JDBC_URL =
             "jdbc:sqlite:src/lecture/livecoding/repository/square.db";
 
     private Connection conn = null;
 
-    public SQLRepository() {
+    public SQLSquareRepository() {
         openConnection();
         createSchema();
         loadData();

@@ -1,13 +1,12 @@
 package lecture.livecoding;
 
-import lecture.livecoding.domain.Square;
 import lecture.livecoding.domain.UnitSquare;
 import lecture.livecoding.repository.RepositoryException;
-import lecture.livecoding.repository.SQLRepository;
+import lecture.livecoding.repository.SQLSquareRepository;
 
 public class Lecture7 {
     public static void main(String[] args) throws RepositoryException {
-        try (SQLRepository<Square> repo = new SQLRepository<>()) {
+        try (SQLSquareRepository repo = new SQLSquareRepository()) {
             repo.add(UnitSquare.getInstance());
 
             for (var sq : repo) {

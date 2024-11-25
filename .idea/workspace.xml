@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Exemple Java streams">
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/PlayerCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar4streams/sports_db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MAP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MAP.iml" afterDir="false" />
+    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="SQL examples and live coding session.">
+      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/SQLArtistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/tests/SQLArtistRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture/examples/lecture6/ParallelOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/examples/lecture6/ParallelOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/Lecture7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/Lecture7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/repository/SQLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/repository/SQLSquareRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar/group323/seminar2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar/group323/seminar2/repository/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,44 +41,41 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Application.Seminar2321.executor": "Run",
-    "Application.SeminarOne.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group322/seminar4streams",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.23242188",
-    "project.structure.side.proportion": "0.30218446",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Seminar2321.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeminarOne.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/teaching/MAP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.23242188&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30218446&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar4streams" />
-      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar4" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,52 +86,26 @@
       <recent name="lecture.livecoding.util" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="JDBC (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture6.jdbc.JDBC" />
-      <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.examples.lecture6.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBC (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture6.jdbc.JDBC" />
-      <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.examples.lecture6.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture6" />
-      <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.livecoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lecture7">
     <configuration name="Lecture7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture7" />
       <module name="MAP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lecture.livecoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture6.ParallelOperations" />
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.examples.lecture6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture7.StreamsExamples" />
-      <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.examples.lecture7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RepoTests" type="JUnit" factoryName="JUnit">
       <module name="MAP" />
       <option name="PACKAGE_NAME" value="lecture.examples" />
@@ -184,23 +143,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SQLArtistRepositoryTest.testSQLRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar.group323.seminar2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar.group323.seminar2.tests" />
+      <option name="MAIN_CLASS_NAME" value="seminar.group323.seminar2.tests.SQLArtistRepositoryTest" />
+      <option name="METHOD_NAME" value="testSQLRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar.group323 in MAP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar.group323.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar.group323" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar.group323.seminar2.tests in MAP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar.group323.seminar2.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seminar.group323.seminar2.tests" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SeminarOne" />
       <item itemvalue="Application.Seminar2321" />
       <item itemvalue="Application.Lecture7" />
-      <item itemvalue="Application.JDBC (2)" />
-      <item itemvalue="Application.JDBC (1)" />
-      <item itemvalue="Application.StreamsExamples" />
-      <item itemvalue="Application.Lecture6" />
+      <item itemvalue="Application.ParallelOperations" />
       <item itemvalue="JUnit.RepoTests" />
+      <item itemvalue="JUnit.SQLArtistRepositoryTest.testSQLRepository" />
+      <item itemvalue="JUnit.seminar.group323 in MAP" />
+      <item itemvalue="JUnit.seminar.group323.seminar2.tests in MAP" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lecture7" />
-        <item itemvalue="Application.JDBC (2)" />
-        <item itemvalue="Application.Lecture6" />
-        <item itemvalue="Application.JDBC (1)" />
-        <item itemvalue="Application.StreamsExamples" />
+        <item itemvalue="Application.ParallelOperations" />
+        <item itemvalue="JUnit.seminar.group323 in MAP" />
+        <item itemvalue="JUnit.seminar.group323.seminar2.tests in MAP" />
+        <item itemvalue="JUnit.SQLArtistRepositoryTest.testSQLRepository" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +236,14 @@
       <workItem from="1731235406646" duration="459000" />
       <workItem from="1731254940464" duration="2807000" />
       <workItem from="1731329221007" duration="6021000" />
-      <workItem from="1732442121640" duration="3315000" />
+      <workItem from="1731835663924" duration="164000" />
+      <workItem from="1731920905048" duration="1822000" />
+      <workItem from="1732024911447" duration="6070000" />
+      <workItem from="1732031336314" duration="53000" />
+      <workItem from="1732033026485" duration="2655000" />
+      <workItem from="1732531491190" duration="18000" />
+      <workItem from="1732531526589" duration="60000" />
+      <workItem from="1732532339221" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -323,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731323067708</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="SQL examples and live coding session.">
+      <option name="closed" value="true" />
+      <created>1731835800251</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731835800251</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,9 +385,16 @@
     <MESSAGE value="Exemple de cod sursă pentru săptămâna 6." />
     <MESSAGE value="Exemple de cod sursă (curs + seminar) pentru săptămâna 6." />
     <MESSAGE value="Exemple Java streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exemple Java streams" />
+    <MESSAGE value="SQL examples and live coding session." />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL examples and live coding session." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MAP$seminar_group323_in_MAP.ic" NAME="seminar.group323 in MAP Coverage Results" MODIFIED="1732031186242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar.group323.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MAP$seminar_group323_seminar2_tests_in_MAP.ic" NAME="seminar.group323.seminar2.tests in MAP Coverage Results" MODIFIED="1732030995327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>seminar.group323.seminar2.tests.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MAP$JDBC__2_.ic" NAME="JDBC (2) Coverage Results" MODIFIED="1731430328966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lecture.examples.lecture6.jdbc.*</FILTER>
     </SUITE>

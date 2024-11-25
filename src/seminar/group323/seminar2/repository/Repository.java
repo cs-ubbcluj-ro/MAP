@@ -23,7 +23,7 @@ public class Repository<T extends Entity> implements IRepository<T> {
     }
 
     @Override
-    public void remove(int id) {
+    public void remove(int id) throws RepositoryException {
         // TODO de implementat
     }
 
