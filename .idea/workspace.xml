@@ -5,28 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="SQL examples and live coding session.">
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/IEntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/ManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/Musician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/MusicianFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/domain/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/musician_db.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/org/example/seminar5_321/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/org/example/seminar5_321/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/DuplicateEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/EntityNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/FileRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/repository/SQLMusicianRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/java/service/MusicianService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/src/main/resources/org/example/seminar5_321/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group321/seminar5/window_components.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/AgentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/IEntityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Persoana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/PlayerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/BinaryFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/DuplicateEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/FileRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/NonExistEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/PlayerDbRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Service/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/org/example/seminar5_322/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/org/example/seminar5_322/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/sports_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/resources/org/example/seminar5_322/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group321/seminar5",
+    "last_opened_file_path": "D:/Facultate/Ore 2024-2025/MAP/MAP-big-repo/MAP/src/seminar/group322/seminar5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group322\seminar5" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar5" />
       <recent name="D:\Facultate\Ore 2024-2025\MAP\MAP-big-repo\MAP\src\seminar\group321\seminar2" />
     </key>
@@ -255,6 +256,7 @@
       <workItem from="1732531526589" duration="60000" />
       <workItem from="1732532339221" duration="1117000" />
       <workItem from="1732998986586" duration="1791000" />
+      <workItem from="1733577815954" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
