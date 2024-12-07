@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="SQL examples and live coding session.">
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/AgentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/IEntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Domain/PlayerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/BinaryFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/DuplicateEntityException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/FileRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/IRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/NonExistEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/PlayerDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Repository/RepositoryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/Service/PlayerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/org/example/seminar5_322/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/org/example/seminar5_322/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/sports_db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/resources/org/example/seminar5_322/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/org/example/seminar5_322/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar/group322/seminar5/src/main/java/org/example/seminar5_322/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +234,7 @@
       <workItem from="1732531526589" duration="60000" />
       <workItem from="1732532339221" duration="1117000" />
       <workItem from="1732998986586" duration="1791000" />
-      <workItem from="1733577815954" duration="1365000" />
+      <workItem from="1733577815954" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />

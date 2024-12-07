@@ -185,10 +185,10 @@ public class HelloApplication extends Application {
 
         //cand apasam butonul addButon, se executa metoda handle
         //care preia continutul din textField-uri
-        //si se foloseste de service ca sa adauge un Musician
+        //si se foloseste de service ca sa adauge un Player
         //cu datele din textField-uri (la fel cum vechiul ui se folosea de service
         //sa adauge ce se citea de la tastatura)
-        //schimbam continutul playerList prin setAll la noua lista, cu musician adaugat
+        //schimbam continutul playerList prin setAll la noua lista, cu player adaugat
         //daca se arunca o eroare (fie la conversia in int, fie
         //pentru ID duplicat, se afiseaza mesaj de eroare - Alert)
 
@@ -214,7 +214,7 @@ public class HelloApplication extends Application {
 
             }
         });
-        //vrem ca atunci cand dam click e o linie din lista, text field-urile
+        //vrem ca atunci cand dam click pe o linie din lista, text field-urile
         //sa se populeze cu informatiile despre player-ul din linia respectiva
         playerListView.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
