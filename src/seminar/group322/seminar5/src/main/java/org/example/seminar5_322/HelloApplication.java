@@ -274,7 +274,7 @@ public class HelloApplication extends Application {
             public void handle(MouseEvent mouseEvent) {
                 //luam din tabel lista de players selectati, afisam informatii despre ei (in consola)
                 ObservableList<Player> selectedPlayers = playerTableView.getSelectionModel().getSelectedItems();
-                System.out.println("Selected musicians are:");
+                System.out.println("Selected players are:");
                 for (Player p : selectedPlayers) {
                     System.out.println(p);
                 }
