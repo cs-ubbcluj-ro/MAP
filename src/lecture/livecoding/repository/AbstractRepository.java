@@ -1,6 +1,8 @@
 package lecture.livecoding.repository;
 
 import lecture.livecoding.domain.Shape2D;
+import lecture.livecoding.observer.Observable;
+import lecture.livecoding.observer.Observer;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,10 +16,12 @@ import java.util.List;
  * @param <T> Type of objects that can be stored in the repository. Notice the upper bound "extends Shape2D", which
  *            says that T must extend Shape2D in order to be eligible for being stored here.
  */
-public abstract class AbstractRepository<T extends Shape2D> implements Iterable<T> {
+public abstract class AbstractRepository<T extends Shape2D> implements Iterable<T>, Observable {
 
     // This java.lang.ArrayList is the actual backing store of the repository
     protected List<T> data = new ArrayList<>();
+
+    protected List<Observer> observers = new ArrayList<>();
 
     /**
      * Add a new element to the repository
@@ -64,4 +68,21 @@ public abstract class AbstractRepository<T extends Shape2D> implements Iterable<
         // repository's backing list.
         return data.iterator();
     }
+
+    @Override
+    public void registerObserver(Observer observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void unregisterObserver(Observer observer) {
+        observers.remove(observer);
+    }
+
+    protected void notifyObservers() {
+        for (var observer : observers) {
+            observer.notifyObserver();
+        }
+    }
+
 }

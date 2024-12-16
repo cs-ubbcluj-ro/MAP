@@ -19,6 +19,7 @@ public class MemoryRepository<T extends Shape2D> extends AbstractRepository<T> {
             throw new DuplicateIDException("Object already in repo - " + elem.getId());
         }
         data.add(elem);
+        notifyObservers();
     }
 
     @Override
@@ -26,6 +27,7 @@ public class MemoryRepository<T extends Shape2D> extends AbstractRepository<T> {
         if (!data.remove(elem)) {
             throw new RepositoryException("Element was not found - " + elem.getId());
         }
+        notifyObservers();
     }
 
     @Override

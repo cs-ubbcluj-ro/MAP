@@ -25,7 +25,7 @@ public class ParallelOperations {
     }
 
     public static void processParallelyWithExecutorService() throws InterruptedException {
-        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        ExecutorService executorService = Executors.newFixedThreadPool(20);
         List<CompletableFuture<Void>> futures = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
@@ -106,7 +106,7 @@ public class ParallelOperations {
          * functionalities.
          */
         t1 = System.currentTimeMillis();
-        ParallelOperations.processParallelyWithStream();
+        ParallelOperations.processParallelyWithStreamSupport();
         t2 = System.currentTimeMillis();
         System.out.println("Process using the StreamSupport class: " + (t2 - t1) + " miliseconds");
     }
