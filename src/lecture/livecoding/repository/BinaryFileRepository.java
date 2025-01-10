@@ -13,6 +13,11 @@ import java.util.ArrayList;
  * @param <T>
  */
 public class BinaryFileRepository<T extends Shape2D> extends AbstractFileRepository<T> {
+
+    public BinaryFileRepository() {
+        this("shapes.bin");
+    }
+
     public BinaryFileRepository(String fileName) {
         super(fileName);
         try {

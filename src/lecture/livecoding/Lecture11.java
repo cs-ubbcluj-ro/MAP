@@ -6,7 +6,7 @@ class Util {
         if (n < 2) {
             return false;
         }
-        for (int i = 2; i <= n / 2; i++) {
+        for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
                 return false;
             }
@@ -18,7 +18,7 @@ class Util {
         int[] numbers = new int[n];
 
         for (int i = 0; i < n; i++) {
-            numbers[i] = (int) (Math.random() * 1000000);
+            numbers[i] = (int) (Math.random() * 10_000_000);
         }
         return numbers;
     }
@@ -91,8 +91,8 @@ public class Lecture11 {
 //        waiter.join();
 //        System.out.println(runnable.getResult());
 
-        var numbers = Util.generateArray(1000000);
-        int numberOfThreads = 8;
+        var numbers = Util.generateArray(100_000);
+        int numberOfThreads = 1;
 
         PrimeRunnable[] primeRunnables = new PrimeRunnable[numberOfThreads];
         for (var i = 0; i < numberOfThreads; i++) {
