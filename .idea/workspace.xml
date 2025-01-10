@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Week 11 lecture. Deleted seminar 5 for groups 331/332 -- these will be added to a separate repository.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="9377f2b8-0618-4fca-81e3-de7aff301ea3" name="Changes" comment="Week 12 lecture.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/Lecture11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/Lecture11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture/livecoding/repository/BinaryFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture/livecoding/repository/BinaryFileRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <recent name="lecture.livecoding.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lecture12 (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Lecture11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture11" />
       <module name="MAP" />
@@ -97,19 +94,6 @@
       </method>
     </configuration>
     <configuration name="Lecture12 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture12" />
-      <module name="MAP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture.livecoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lecture12 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture.livecoding.Lecture12" />
       <module name="MAP" />
       <extension name="coverage">
@@ -141,6 +125,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lecture.livecoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture.examples.lecture12.Main" />
+      <module name="MAP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture.examples.lecture12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,20 +178,20 @@
     <list>
       <item itemvalue="Application.SeminarOne" />
       <item itemvalue="Application.Seminar2321" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Lecture11" />
       <item itemvalue="Application.Lecture12 (1)" />
       <item itemvalue="Application.Lecture12" />
-      <item itemvalue="Application.Lecture12 (4)" />
       <item itemvalue="Application.Lecture12 (5)" />
       <item itemvalue="JUnit.RepoTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lecture12 (1)" />
         <item itemvalue="Application.Lecture12" />
         <item itemvalue="Application.Lecture11" />
         <item itemvalue="Application.Lecture12 (5)" />
-        <item itemvalue="Application.Lecture12 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +239,7 @@
       <workItem from="1733907524004" duration="195000" />
       <workItem from="1734342401642" duration="4879000" />
       <workItem from="1734450501172" duration="4745000" />
+      <workItem from="1736517082198" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -355,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734342740952</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Week 12 lecture.">
+      <option name="closed" value="true" />
+      <created>1736517127648</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736517127648</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +408,8 @@
     <MESSAGE value="SQL examples and live coding session." />
     <MESSAGE value="Week 8 work. Fixed SQLSquareRepository class." />
     <MESSAGE value="Week 11 lecture. Deleted seminar 5 for groups 331/332 -- these will be added to a separate repository." />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 11 lecture. Deleted seminar 5 for groups 331/332 -- these will be added to a separate repository." />
+    <MESSAGE value="Week 12 lecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 12 lecture." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MAP$seminar_group323_in_MAP.ic" NAME="seminar.group323 in MAP Coverage Results" MODIFIED="1732031186242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
